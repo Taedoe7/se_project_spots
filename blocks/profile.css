@@ -40,21 +40,33 @@
   margin-top: auto;
   width: 149px;
   height: 52px;
-  background: #000;
-  color: #fff;
+  background: #212121;
+  color: #fcf5e5;
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.profile__add-button:hover {
+  opacity: 80%;
 }
 
 .profile__edit-button {
   margin-top: auto;
   border: none;
-  background: #fcf5e5;
+  background-color: transparent;
   margin-right: auto;
   font-size: 16px;
   line-height: 1;
   font-weight: 500;
+  opacity: 70%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.profile__edot-button:hover {
+  opacity: none;
 }
 
 .profile__avatar {
@@ -84,6 +96,7 @@
 
   .profile__add-button {
     width: 100%;
+    border: none;
   }
 
   .profile__avatar {
