@@ -8,8 +8,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  overflow: hidden;
 }
 
 .card__image {
@@ -27,7 +25,7 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 420px;
-  margin: 0;
+  margin: 12px 0 0;
 }
 
 .card__like-button {
@@ -65,7 +63,6 @@
   }
 
   .card__like-button {
-    width: 20px;
     height: 18px;
   }
 }
