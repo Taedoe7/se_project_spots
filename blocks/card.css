@@ -25,6 +25,7 @@
   overflow: hidden;
   max-width: 420px;
   margin: 0;
+  color: #212121;
 }
 
 .card__like-button {
